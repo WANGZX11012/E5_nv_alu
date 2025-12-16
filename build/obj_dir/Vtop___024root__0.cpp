@@ -119,7 +119,7 @@ void Vtop___024root___ico_sequent__TOP__0(Vtop___024root* vlSelf) {
                                            ? ((1U & (IData)(vlSelfRef.opcode))
                                                ? ((IData)(vlSelfRef.a) 
                                                   & (IData)(vlSelfRef.b))
-                                               : (~ (IData)(vlSelfRef.a)))
+                                               : (- (IData)(vlSelfRef.a)))
                                            : ((1U & (IData)(vlSelfRef.opcode))
                                                ? (IData)(top__DOT__u_sub__DOT__full_result)
                                                : (IData)(top__DOT__add_s))));

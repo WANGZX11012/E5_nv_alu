@@ -63,7 +63,7 @@ begin
         end
 
         3'b010:
-            mid_s = ~a;
+            mid_s = -a;
         
         3'b011:
             mid_s = a & b;

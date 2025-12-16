@@ -40,7 +40,9 @@ int main() {
 
       case 2:
         printf("oposite a\n");
-        printf("a = %d ~a = signed %d or unsigned %d\n",a_signed, sum_signed -1, dut.out_s);
+        int out_a;
+        out_a = ((dut.a >> 3) == 1) ? dut.out_s : sum_signed;
+        printf("a = %d -a =  %d \n",a_signed, out_a);
         break;
 
       case 3:
